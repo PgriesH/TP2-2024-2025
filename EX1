@@ -1,0 +1,10 @@
+temp = 0
+x = int(input("Entrez x : "))
+y = int(input("Entrez y : "))
+
+temp  = x
+x = y
+y = temp
+
+print(x)
+print(y)
